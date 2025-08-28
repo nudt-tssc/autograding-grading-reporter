@@ -2,7 +2,7 @@
 
 ### Overview
 **GitHub Classroom Autograding Reporter** is a plugin for GitHub Classroom's Autograder. Use it to report the results of the test execution to students and GitHub Classroom.
-
+ 
 ### Key Features
 - **Automatic Grading**: Test student code submissions and provide immediate feedback.
 - **Customizable Test Setup**: Define pre-test setup commands and specific testing commands.
