@@ -36,7 +36,7 @@ exports.NotifyClassroom = async function NotifyClassroom(runnerResults) {
 
   
   const allMaxPoints = runnerResults.map(({ results }) => {
-    if (!results.max_score) return "000";
+    if (!results.max_score) return "00000";
     return String(results.max_score).padStart(5, '0');
   }).join('');
   
