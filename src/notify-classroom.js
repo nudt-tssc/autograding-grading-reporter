@@ -1,5 +1,5 @@
 const core = require("@actions/core");
-
+ 
 exports.NotifyClassroom = async function NotifyClassroom(runnerResults) {
   // combine max score and total score from each {runner, results} pair
   // if max_score is greater than 0 run the rest of this code
